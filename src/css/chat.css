@@ -1,0 +1,43 @@
+html body {
+    background-color: #002447;
+}
+#chatplace{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 600px;
+    padding: 30px 30px 30px 30px;
+    color: white;
+    font-size: 15px;
+}
+#chatplace .chat-box{
+    max-height: 400px;
+     overflow-y: visible;
+     overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+#chatplace .outgoing{
+    display: flex;
+}
+#chatplace .outgoing p{
+    max-width: 60ch;
+    max-height: 90ch;
+    
+}
+#chatplace .incoming{
+    display: flex;
+}
+#chatplace .incoming p{
+    max-width: 60ch;
+    max-height: 90ch;
+    
+}
+
+.messages span.riddle{
+    color: #00C074;
+    animation : on 0.8s infinite alternate;
+}
+@keyframes on{
+    from{
+        opacity: 0;
+    }
+}
