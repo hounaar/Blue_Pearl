@@ -1,4 +1,5 @@
 # blue-pearl-online-chat-portal-form
-This document is about 
+This document is blue pearl online chat portal form code sources
+<b>Hope you enjoyed it</b>
 
-![](https://github.com/hounaar/blue-pearl-online-chat-portal-form/src/logo.png)
+<img src="https://hounaar.com/github/logo.png">
