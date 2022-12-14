@@ -16,20 +16,20 @@ if(!isset($_SESSION['anon_id'])){
             while($row = $query->fetch_assoc()){
                 if($row['outgoing_msg_id'] === $outgoing_id){ //msg sender 
                     echo '
-                        <div class="col outgoing">
+                        <div class="container outgoing">
                         <span class="riddle">??</span>
-                        <span>Blue Pearl >></span>
-                        <span>'.$row['username'].'('.$row['status'].') : </span>
-                        <span>'.$row['msg'].'</span>
+                        <span>'.$row['username'].'('.$row['status'].'): </span>
+                        <p class="msg">'.$row['msg']."\n".'</p>
+
                 </div>';
                 } else { //msg reciever
                     echo '               
-                    <div class="col incomming">
-                        <span class="riddle">??</span>
-                        <span>Blue Pearl >></span>
-                        <span>'.$row['username'].' ('.$row['status'].') : </span>
-                        <span>'.$row['msg'].'</span>
-                    </div>';
+                    <div class="container incoming">
+                    <span class="riddle">??</span>
+                    <span>'.$row['username'].'('.$row['status'].'): </span>
+                    <p class="msg">'.$row['msg']."\n".'</p>
+                    </div>
+                    ';
                 }
         }
 
