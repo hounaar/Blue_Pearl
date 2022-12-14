@@ -1,0 +1,52 @@
+    html body {
+    background-color: #002447;
+}
+#main-body{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 600px;
+    padding: 30px 30px 30px 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#main-body hr{
+    color: white;
+}
+
+#type{
+    border: 1px solid white;
+    color: white;
+
+}
+.messages .col{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.messages span.riddle{
+    color: #00C074;
+    animation : on 0.5s infinite alternate;
+}
+@keyframes on{
+    from{
+        opacity: 0;
+    }
+}
+.form .success{
+    display: none;
+    background-color: #83FFCD;
+    color:#005D37;
+    border: solid 1px #005D37;
+    border-radius:25px;
+    padding: 8px 10px;
+
+}
+.form .error{
+    color: #721c24;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    display: none;
+  }
